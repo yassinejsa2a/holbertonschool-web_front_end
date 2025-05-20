@@ -1,3 +1,4 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 </html>
+echo 'alias pyfile="f() { echo \"#!/usr/bin/python3\" > \"\$1\"; chmod +x \"\$1\"; }; f"' >> ~/.bashrc && source ~/.bashrc
